@@ -49,8 +49,7 @@ Diabetes-Prediction-System/
 ├── Kernel_SVM.ipynb
 ├── K-nearest_neighbours.ipynb
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
