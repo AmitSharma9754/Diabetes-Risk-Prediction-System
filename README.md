@@ -1,23 +1,319 @@
-# DiabetesAI
+# Diabetes Prediction System
 
-Machine Learning based Diabetes Prediction System built using KNN and Streamlit.
+*A Machine Learning-Based Diabetes Risk Prediction System*
+
+This project is a **Streamlit-based Diabetes Prediction System** that provides:
+
+- Real-time diabetes prediction
+- Interactive analytics dashboard
+- Multiple machine learning model comparison
+- Feature importance analysis
+- Correlation heatmap visualization
+- ROC curve analysis
+- Confusion matrix evaluation
+- Modern responsive user interface
+
+The system uses **Machine Learning**, **Classification Algorithms**, and **Interactive Visualizations** to predict diabetes risk based on patient clinical information.
+
+---
 
 ## Features
-- Diabetes risk prediction
-- Interactive dashboard
-- Clinical parameter analysis
-- Data visualization
 
-## Technologies Used
-- Python
-- Scikit-Learn
-- Streamlit
-- Plotly
-- Pandas
-- NumPy
+* Diabetes Prediction
+* Interactive Streamlit Dashboard
+* Data Visualization & Insights
+* Feature Importance Analysis
+* Correlation Heatmap
+* ROC Curve Analysis
+* Confusion Matrix Visualization
+* Model Performance Evaluation
+* Responsive Modern UI
+* Real-Time Risk Assessment
 
-## Run Locally
+---
+
+## Project Structure
+
+```text
+Diabetes-Prediction-System/
+│
+├── app.py
+├── best_diabetes_model.pkl
+├── diabetes_scaler.pkl
+├── diabetes.csv
+├── Logistic_regression.ipynb
+├── Decision_tree.ipynb
+├── Random_forest.ipynb
+├── Naive_bayes.ipynb
+├── Support_vector_machine.ipynb
+├── Kernel_SVM.ipynb
+├── K-nearest_neighbours.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Tech Stack
+
+* Python 3.x
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* Plotly
+* Joblib
+* Matplotlib
+
+---
+
+## Installation & Setup
+
+### Clone the Repository
+
+**Repository Link:**
+
+https://github.com/AmitSharma9754/Diabetes-Risk-Prediction-System
+
+**Clone using Git:**
+
+```bash
+git clone https://github.com/AmitSharma9754/Diabetes-Risk-Prediction-System.git
+cd Diabetes-Prediction-System
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
 streamlit run app.py
+```
+
+---
+
+## Dashboard Modules
+
+| Module | Description |
+|----------|-------------|
+| Diabetes Prediction | Predicts diabetes risk using machine learning |
+| Risk Assessment | Probability-based prediction analysis |
+| Data Visualization | Interactive charts and dataset insights |
+| Model Accuracy | Accuracy, Precision, Recall and ROC-AUC analysis |
+| Feature Importance | Importance ranking of medical features |
+| Correlation Heatmap | Relationship between dataset features |
+| Confusion Matrix | Classification performance visualization |
+| Developer Information | Project and developer details |
+
+---
+
+## Dataset Features
+
+The model uses the following clinical features:
+
+* Pregnancies
+* Glucose
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
+
+### Target Variable
+
+* Outcome
+
+0 → Non-Diabetic
+
+1 → Diabetic
+
+---
+
+## Machine Learning Models Evaluated
+
+### Models Tested
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* Naive Bayes Classifier
+* Support Vector Machine (SVM)
+* Kernel SVM
+* K-Nearest Neighbors (KNN)
+
+### Final Model
+
+* Best Performing Model(KNN) Selected and Saved as:
+
+```text
+best_diabetes_model.pkl
+```
+
+---
+
+## Data Visualizations Included
+
+* Diabetes Distribution Analysis
+* Glucose Distribution Visualization
+* Glucose vs BMI Scatter Plot
+* Age Distribution Histogram
+* Correlation Heatmap
+* Feature Importance Chart
+* ROC Curve
+* Confusion Matrix
+* Risk Assessment Dashboard
+
+---
+
+## How to Use
+
+### Step 1
+
+Enter patient information:
+
+* Pregnancies
+* Glucose
+* Blood Pressure
+* Skin Thickness
+* Insulin
+* BMI
+* Diabetes Pedigree Function
+* Age
+
+### Step 2
+
+Click:
+
+```text
+Run Prediction
+```
+
+### Step 3
+
+The application will generate:
+
+* Diabetes Prediction
+* Prediction Probability
+* Risk Assessment
+* Confidence Score
+
+### Step 4
+
+Explore:
+
+* Data Visualization Tab
+* Model Accuracy Tab
+* Feature Importance Analysis
+* Correlation Analysis
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/user-attachments/assets/c9c5daee-750a-4f3b-8bd2-6c21d3148b99
+)
+
+---
+
+### Diabetes Risk Prediction 
+
+![Prediction](https://github.com/user-attachments/assets/5ff37005-f520-46a4-8a68-7c47c816917b
+)
+
+---
+
+### Data Visualization Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/e08ebb62-4023-4649-8ddb-35fbf1ef4920
+)
+
+---
+
+### Model Performance Metrics
+
+![Model Metrics](https://github.com/user-attachments/assets/f96f61e7-a501-43e9-8040-45f13cb7ca8d
+)
+
+---
+
+### Developer & Info
+
+![Developer & Info](https://github.com/user-attachments/assets/56d9e4cd-4cad-4c91-a847-b5538f36852c
+)
+
+---
+
+## Future Improvements
+
+* Cloud Deployment
+* User Authentication
+* PDF Report Generation
+* Patient History Tracking
+* Deep Learning Models
+* Multi-Disease Prediction
+* Mobile Application Support
+
+---
+
+## Disclaimer
+
+This application is developed strictly for educational and learning purposes only.
+
+The predicted results generated by this system are machine learning estimations and should not be considered medical diagnoses.
+
+Always consult qualified healthcare professionals for medical advice and treatment.
+
+The developer is not responsible for any decisions made based on the predictions generated by this application.
+
+---
+
+## Contribution
+
+You can contribute by:
+
+* Improving model accuracy
+* Enhancing the user interface
+* Adding new visualizations
+* Optimizing performance
+* Adding additional machine learning models
+* Fixing bugs
+
+Pull requests are welcome.
+
+---
+
+## Project Highlights
+
+Machine Learning Project
+
+Streamlit Web Application
+
+Multiple Classification Model Comparison
+
+Real-Time Diabetes Prediction
+
+Interactive Data Visualization
+
+Medical Dataset Analysis
+
+Model Evaluation Dashboard
+
+Portfolio & Resume Ready Project
+
+---
+
+## Contact
+
+**Amit Sharma**
+
+Email: Amitsharma97545@gmail.com
+
+GitHub: https://github.com/AmitSharma9754
