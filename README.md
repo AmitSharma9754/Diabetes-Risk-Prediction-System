@@ -76,11 +76,8 @@ Diabetes-Prediction-System/
 https://github.com/AmitSharma9754/Diabetes-Risk-Prediction-System
 
 **Clone using Git:**
-
-```bash
 git clone https://github.com/AmitSharma9754/Diabetes-Risk-Prediction-System.git
-cd Diabetes-Prediction-System
-```
+cd Diabetes Risk Prediction System
 
 ### Install Dependencies
 
